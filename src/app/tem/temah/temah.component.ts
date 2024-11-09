@@ -8,13 +8,11 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
   styles: ``
 })
 export class TemahComponent {
-  //Propiedad de entrada @Input
   @Input() mensaje!: string;
 
-  @Output() mensaje2 = new EventEmitter<string>()
-
-
+  @Output() mensaje2 = new EventEmitter<string>();
+  
   enviarMensaje(){
-    this.mensaje2.emit('Hola mundo desde hijo')
+    this.mensaje2.emit('Hola mundo desde hijo');
   }
 }

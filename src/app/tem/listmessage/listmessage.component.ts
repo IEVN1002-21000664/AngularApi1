@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './listmessage.component.html',
-  styleUrl: './listmessage.component.css'
+  styles: ``
 })
 export class ListmessageComponent {
 
