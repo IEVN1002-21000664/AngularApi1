@@ -11,5 +11,9 @@ export default[
     {
         path:'eliminar/:matricula',
         loadComponent: ()=>import('./eliminar/eliminar.component')
-    }
+    },
+    {
+        path:'editar/:matricula',
+        loadComponent: ()=>import('./editar/editar.component')
+    },
 ]
